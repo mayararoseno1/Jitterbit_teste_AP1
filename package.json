@@ -1,0 +1,28 @@
+{
+  "name": "jitterbit_teste_ap1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayararoseno1/Jitterbit_teste_AP1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mayararoseno1/Jitterbit_teste_AP1/issues"
+  },
+  "homepage": "https://github.com/mayararoseno1/Jitterbit_teste_AP1#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
