@@ -1,9 +1,11 @@
 {
   "name": "jitterbit_teste_ap1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API de gerenciamento de pedidos",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/mayararoseno1/Jitterbit_teste_AP1#readme",
   "dependencies": {
+    "dotenv": "^16.6.1",
     "express": "^5.2.1",
     "mongoose": "^9.2.4"
   },
